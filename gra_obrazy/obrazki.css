@@ -1,0 +1,50 @@
+
+#myCanvas {
+    position: absolute;
+    z-index: -1;
+    top: 1
+}
+
+
+
+
+h1 {color: coral;
+    border: solid;
+    border-color: skyblue;
+    position: absolute;
+    z-index: 1;
+    margin-top: 120;
+}
+
+p {position: absolute;
+        border: solid;
+        border-color: skyblue;
+        margin-left: 12 ;
+      margin-top: 400px;
+    margin-left: 500px;
+    font-family: monospace;
+    font-size: 15px;
+    letter-spacing: -2px;
+    
+}
+
+.obrazek1 {position: fixed;
+        margin-left: 300px;
+            margin-top: 400px}
+
+.obrazek2 {position: fixed;
+        margin-left: 20px;
+            margin-top: 150px}
+
+.obrazek3 {position: fixed;
+        margin-left: 420px;
+            margin-top: 250px}
+
+.obrazek4 {position: fixed;
+        margin-left: 600px;
+            margin-top: 706px}
+
+.obrazek5 {position: fixed;
+        margin-left: 700px;
+            margin-top: 400}
+

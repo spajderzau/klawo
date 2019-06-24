@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="myCanvas" width="300" height="300"
+style="border:1px solid #c3c3c3;">
+
+</canvas>
+<script>
+
+var tlo = document.getElementById("myCanvas");
+    tlo.onclick = akcja;
+
+
+   
+    
+function akcja(eventObj) {
+     
+    
+
+    
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+ctx.moveTo(0, 0);
+ctx.lineTo(eventObj.clientY, eventObj.clientX);
+ctx.lineTo(550, 10);
+ctx.stroke();
+    
+    var canvas = document.getElementById("myCanvas");
+var ctx1 = canvas.getContext("2d");
+ctx1.beginPath();
+ctx1.arc(95, 50, 40, 0, 2 * Math.PI);
+ctx1.stroke();
+    
+ var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+ctx.moveTo(0, eventObj.clientY);
+ctx.lineTo(20, eventObj.clientX * 2);
+    ctx.lineTo(550, 1880);
+ctx.stroke();   
+    
+   var canvas = document.getElementById("myCanvas");
+var ctx1 = canvas.getContext("2d");
+ctx1.beginPath();
+ctx1.arc(140, 530, 40, 0, 8 * Math.PI);
+ctx1.stroke(); 
+    
+var canvas = document.getElementById("myCanvas");
+var ctx1 = canvas.getContext("2d");
+ctx1.beginPath();
+ctx1.arc(240, 830, 300, 7, 8 * Math.PI);
+ctx1.arc(eventObj.clientX, eventObj.clientY, eventObj.clientX, eventObj.clientX, eventObj.clientX * Math.PI)
+ctx1.stroke();     
+}
+    
+    
+    
+    
+    
+    
+</script> 
+
+
+
+</body>
+</html>
