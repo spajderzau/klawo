@@ -1,0 +1,47 @@
+body {
+    background-color:  rgb(153, 204, 255)
+}
+button {
+    color:#d9d9d9;
+    background-color: #333333;
+    border: none;
+    position: relative;
+    left: 50%;
+    top: 500px;
+    font-family: 'Inknut Antiqua';
+    font-size: 50;
+    border-radius: 15px;
+    box-shadow: 5px 5px #595959;
+}
+button:hover {
+    background-color: #404040
+}
+
+div {
+    
+    font-family: 'Inknut Antiqua';
+    font-size: 50;
+    color : white
+}
+p {position: relative;
+    left: 0px;
+    top : 0px}
+
+p.pole {
+    box-sizing: border-box
+    font-family: 'Inknut Antiqua';
+    font-size: 22px;
+    color : black;
+    background-color: white;
+    width: 200px;
+    height: : 150px;
+    border-radius: 4px;
+    box-shadow: -2px -5px 10px grey
+    
+    
+}
+
+#zdanie-1 {
+    width: 300px;
+    box-shadow: -2px -5px 10px grey;
+}

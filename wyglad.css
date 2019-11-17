@@ -1,7 +1,35 @@
+body {
+    background-color: rgba( 32, 82, 191, 0.1 )
+}
 a {
-text-decoration: none
+    
+    
+    text-decoration: none;
+    color:white;
+    font-family: 'Glass Antiqua', cursive;
+    font-size: 2em;
+    background-color:rgba( 32, 82, 11, 0.7 );
+    float:left;
+    padding: 25px;
+    
+    
+   
+    
 }
 
 a:hover {
-    color:rgba( 32, 82, 191, 0.232 )
+    color: white;
+    background-color:rgba( 32, 82, 11, 0.8 )
 }
+
+
+
+h1 {
+   font-family: 'Bebas Neue', cursive;
+    font-size: 5em
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+    display: table; }
